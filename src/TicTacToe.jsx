@@ -93,7 +93,7 @@ function TicTacToe() {
             }, 600);
             return () => clearTimeout(timer);
         }
-    }, [tiles, playerTurn, gameState, gameMode]);
+    }, [tiles, playerTurn, gameState, gameMode, makeComputerMove]);
 
     return (
         <div>
